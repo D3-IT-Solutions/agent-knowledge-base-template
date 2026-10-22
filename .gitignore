@@ -1,0 +1,16 @@
+# Secrets and local credentials. Keep these out of the repository.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.md
+credentials.json
+**/id_rsa
+**/id_ed25519
+
+# Editor and OS clutter
+.DS_Store
+Thumbs.db
