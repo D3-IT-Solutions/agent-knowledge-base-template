@@ -33,6 +33,7 @@ Each topic area is a folder. Each topic is one Markdown file inside that folder.
 ├── finance/                Invoice timing and spending rules, in words
 ├── customers/              Tone, promises, and what a new customer should know
 ├── policies/               Decisions you have already made
+├── standards/              Industry standards and rules for how agents work (start with core-principle.md)
 └── personal/               How you like assistants to work with you
 ```
 
