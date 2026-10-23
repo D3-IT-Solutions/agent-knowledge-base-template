@@ -1,0 +1,63 @@
+# Automation registry (template)
+#
+# One entry per reusable script, routine or connector. Check this file before
+# doing a task by hand. See tool-registry.md and promotion-rule.md.
+#
+# Both entries below are EXAMPLES. They are patterns, not real tools.
+# Delete them (or replace them with your own) before you rely on this file.
+# Never put passwords, tokens, account numbers or customer personal data here.
+#
+# Fields:
+#   id              short unique slug, lowercase-with-hyphens
+#   name            plain-language name
+#   kind            script | routine | connector
+#   builder         person (or assistant role) that built it and runs it
+#   approver        person who accepts its runs and promotes it (the owner or someone
+#                   they name); must never be the same as builder
+#   status          draft | accepted   (accepted only after the approver OKs two good runs)
+#   location        where the code or instructions live
+#   how_to_run      exact command or steps
+#   inputs          what it needs
+#   outputs         what it produces and where
+#   human_approval  which step a person approves, or "none" if it only reads and reports
+#   accepted_runs   links to good-run records (empty while draft). Once accepted,
+#                   these must be real links to the records, not placeholder text.
+#   last_reviewed   YYYY-MM-DD
+
+entries:
+  # EXAMPLE: not a real tool
+  - id: example-site-health-check
+    name: "EXAMPLE: weekly site uptime and SSL/TLS certificate check"
+    kind: routine
+    builder: "the person or assistant who set it up"
+    approver: "the owner"
+    status: draft
+    location: "scripts/site-health-check (in your private tools repo)"
+    how_to_run: "Scheduled weekly; or run scripts/site-health-check sites.txt by hand"
+    inputs:
+      - "sites.txt: one site address per line"
+    outputs:
+      - "A short report listing each site's status and SSL/TLS certificate expiry date, saved to reports/"
+    human_approval: "none (read-only check); a person decides any fix"
+    accepted_runs: []
+    last_reviewed: 2026-01-01
+
+  # EXAMPLE: not a real tool
+  - id: example-lead-list-cleanup
+    name: "EXAMPLE: lead list dedupe and format"
+    kind: script
+    builder: "the person or assistant who wrote it"
+    approver: "the owner"
+    status: accepted
+    location: "scripts/clean-leads (in your private tools repo)"
+    how_to_run: "scripts/clean-leads input.csv output.csv"
+    inputs:
+      - "input.csv: exported lead list"
+    outputs:
+      - "output.csv: duplicates removed, names and phone numbers in one format"
+      - "a log of removed and changed rows"
+    human_approval: "a person reviews the log before the list is imported anywhere"
+    accepted_runs:  # EXAMPLE placeholders: a real accepted entry must link to the actual records
+      - "link to first good-run record"
+      - "link to second good-run record"
+    last_reviewed: 2026-01-01
