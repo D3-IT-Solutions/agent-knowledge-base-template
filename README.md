@@ -34,6 +34,7 @@ Each topic area is a folder. Each topic is one Markdown file inside that folder.
 ├── customers/              Tone, promises, and what a new customer should know
 ├── policies/               Decisions you have already made
 ├── standards/              Industry standards and rules for how agents work (start with core-principle.md)
+├── automation/             When to script vs use an agent, the tool registry, and automation ideas
 └── personal/               How you like assistants to work with you
 ```
 
