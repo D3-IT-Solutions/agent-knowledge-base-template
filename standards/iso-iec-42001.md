@@ -1,6 +1,6 @@
 # ISO/IEC 42001:2023 (AI management systems): reference only
 
-> This is a plain-language summary, not legal or compliance advice. Check the official text before relying on it.
+> This summary is written in clear, everyday words — it is not legal or compliance advice. Check the official text before relying on it.
 
 > **Reference only.** Unless your organization has actually been certified by an accredited body, do not describe it as certified, compliant, or "aligned" with this standard in any client-facing material. Record here whether you are pursuing certification: _not pursuing (default) / pursuing, decided by the owner on ____._
 

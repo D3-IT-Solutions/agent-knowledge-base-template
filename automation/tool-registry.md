@@ -23,7 +23,7 @@ Add the entry in the same change (pull request) as the tool. Every entry needs:
 | Field | What to write |
 |---|---|
 | `id` | Short unique slug, lowercase with hyphens |
-| `name` | Plain-language name |
+| `name` | Name in plain words |
 | `kind` | `script`, `routine` (a scheduled or repeated agent run), or `connector` |
 | `builder` | The person (or assistant role) that built it and runs it |
 | `approver` | The person who accepts its runs and promotes it (the owner or someone they name); never the builder |

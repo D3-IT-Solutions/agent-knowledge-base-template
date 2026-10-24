@@ -9,7 +9,7 @@
 #
 # Fields:
 #   id              short unique slug, lowercase-with-hyphens
-#   name            plain-language name
+#   name            name in plain words
 #   kind            script | routine | connector
 #   builder         person (or assistant role) that built it and runs it
 #   approver        person who accepts its runs and promotes it (the owner or someone

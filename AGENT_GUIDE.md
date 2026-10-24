@@ -17,9 +17,10 @@ Your job is to interview the owner, then turn their answers into small topic fil
 Read these files before you ask the first question:
 
 1. `README.md`
-2. `SECURITY.md`
-3. `_templates/topic-template.md`
-4. The `README.md` inside each area folder
+2. `index.md`
+3. `SECURITY.md`
+4. `_templates/topic-template.md`
+5. The `README.md` inside each area folder
 
 Then tell the person, in a few sentences, what you are going to do: ask a little, write a little, and read it back.
 
@@ -27,6 +28,7 @@ Then tell the person, in a few sentences, what you are going to do: ask a little
 
 - You have said the secrets rule out loud, in plain words.
 - Every real note uses the template, with `status: draft` or `status: confirmed`.
+- `index.md` lists every real note with its current status (`draft` or `confirmed`) and `last_reviewed` date.
 - Each area the person actually uses has at least one real topic, or a clear "nothing here yet" that they agreed to.
 - You are not citing files whose names start with `example-`.
 - A review rhythm is written down as its own topic once they choose one.
@@ -115,6 +117,7 @@ Use these, in small batches. Change the wording to match what they already told 
 7. Read the file back to the person. Apply their corrections.
 8. Set `status` to `confirmed` and set `last_reviewed` to today's date only after they accept the exact text. Use year-month-day, such as `2026-04-02`.
 9. Put their first name or the word `owner` in `owner`. Do not add an email or a home address.
+10. Add or update the file's row in `index.md` (and remove replaced `example-*` rows once real notes take their place).
 
 ### Mark anything unconfirmed as draft
 
@@ -209,6 +212,7 @@ Do not quietly rewrite a confirmed file.
 3. Leave `status` as `draft` if the meaning changed, until the owner accepts both the words and the pull request.
 4. When they accept, set `status` to `confirmed` and set `last_reviewed` to that day.
 5. Add a change-log line either way: `YYYY-MM-DD — What changed, and why.`
+6. Whenever a file's `status` or `last_reviewed` date changes, update its row in `index.md` in the same commit or pull request.
 
 Keep unrelated topics in separate pull requests.
 
@@ -217,7 +221,7 @@ Keep unrelated topics in separate pull requests.
 1. Add a dated line under **Change log**.
 2. Set `status` to `draft`.
 3. Ask them to read it.
-4. After they agree, set `status` to `confirmed` and update `last_reviewed`.
+4. After they agree, set `status` to `confirmed`, update `last_reviewed`, and update the matching row in `index.md` in the same commit.
 
 New facts you discover stay drafts until the owner confirms them. Do not overwrite a confirmed summary to match a web page unless they ask you to.
 

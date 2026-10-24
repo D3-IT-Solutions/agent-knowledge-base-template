@@ -1,6 +1,6 @@
 # Standards
 
-Plain-language reference pages on industry standards that matter when AI assistants or agents help run a small business. Each page says what the standard is, links the official source, and ends with concrete rules for how agents should work.
+Reference pages in clear, everyday words on industry standards that matter when AI assistants or agents help run a small business. Each page says what the standard is, links the official source, and ends with concrete rules for how agents should work.
 
 These are summaries, not legal or compliance advice, and using them does not make anyone certified or compliant. Check the official text before relying on a page, and re-check versions at least once a year.
 

@@ -22,6 +22,7 @@ Each topic area is a folder. Each topic is one Markdown file inside that folder.
 
 ```
 .
+├── index.md                Map of every note, standard, automation, and published article
 ├── AGENT_GUIDE.md          How an assistant should interview you and write notes
 ├── CONTRIBUTING.md         Short rules for edits
 ├── SECURITY.md             What must never be committed
@@ -45,7 +46,7 @@ Every area folder has a short `README.md` that says what belongs there. Files wh
 GitHub can copy this starter into a new repository for you.
 
 1. Turn on **Template repository** under this repository's **Settings → General**. That is a one-time step for the person who published the starter. GitHub explains the switch here: [Creating a template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository).
-2. Click **Use this template**, or open [this link](https://github.com/Jds207/agent-knowledge-base-template/generate).
+2. Click **Use this template**, or open [this link](https://github.com/D3-IT-Solutions/agent-knowledge-base-template/generate).
 3. Name the new repository. Choose **Private** when it will hold real notes about you or your work. Public is fine for practice with the examples only.
 4. In the new repository, open a chat with your assistant and paste the prompt above.
 
@@ -59,6 +60,7 @@ More help: [Creating a repository from a template](https://docs.github.com/en/re
 2. Rename the copy with lowercase words and hyphens, such as `how-a-request-moves.md`.
 3. Fill in the block at the top and the sections below it. Leave **status** as `draft` until you have read the file and the words are right.
 4. Ask your assistant to follow `AGENT_GUIDE.md` if you would rather talk it through.
+5. Add a row for the new file in `index.md` so assistants can find it from one place.
 
 The block between the two `---` lines is called front matter. It is a short list of facts (title, status, owner, last reviewed, sources) that an assistant can read quickly. Under that, the note has a summary, details, and open questions, written for a person.
 

@@ -11,7 +11,7 @@ sources:
 
 ## Summary
 
-Two to four sentences in plain language. Describe one rule, one workflow, or one decision. Say how it applies to you.
+Two to four sentences in clear, everyday words. Describe one rule, one workflow, or one decision. Say how it applies to you.
 
 ## Details
 
