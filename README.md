@@ -1,4 +1,17 @@
-# Agent knowledge base
+# Bot Squad™ Agent Knowledge Base Template
+
+[![Version](https://img.shields.io/badge/Bot%20Squad%E2%84%A2%20Starter%20Kit-v1.0.0-0f172a)](https://github.com/D3-IT-Solutions/agent-knowledge-base-template/archive/refs/heads/main.zip)
+[![Download ZIP](https://img.shields.io/badge/Download-Bot%20Squad%E2%84%A2%20Template%20(.zip)-2563eb)](https://github.com/D3-IT-Solutions/agent-knowledge-base-template/archive/refs/heads/main.zip)
+[![License: MIT](https://img.shields.io/badge/License-MIT-16a34a.svg)](LICENSE)
+
+**Bot Squad™ Agent Knowledge Base Template** (by **D3 IT Solutions Inc**) is a downloadable software template and electronic configuration file starter kit for multi-agent AI assistants. It provides structured Markdown templates, operating standards, automation registries, and prompt instructions so a team of AI agents shares one verified source of truth.
+
+### Direct Download (Bot Squad™ Starter Kit v1.0)
+
+- **[⬇ Download the Bot Squad™ Template (.zip)](https://github.com/D3-IT-Solutions/agent-knowledge-base-template/archive/refs/heads/main.zip)** — Direct download of the complete **Bot Squad™** electronic data files, Markdown configuration templates (`_templates/topic-template.md`, `index.md`, `AGENT_GUIDE.md`), guardrail standards, and folder structure.
+- **[Use this repository as a GitHub Template](https://github.com/D3-IT-Solutions/agent-knowledge-base-template/generate)** — Create a private copy in your own GitHub account.
+
+---
 
 This is a starter kit for a plain folder of Markdown notes. The notes are the source of truth for your AI assistants. When an assistant answers a question about how you work, it reads the note and cites it, instead of guessing or asking you the same thing again.
 
@@ -77,6 +90,8 @@ The full steps are in `AGENT_GUIDE.md`.
 
 This starter is public and contains no real personal or business facts. Your filled-in copy should be a **private** repository. Do not commit passwords, ID numbers, account numbers, or home addresses. Read [SECURITY.md](SECURITY.md) before you add real notes.
 
-## License
+## License & Trademark Notice
 
 [MIT](LICENSE). You can copy this starter, change it, and share it.
+
+**Bot Squad™** and **D3 Bot Squad™** are trademarks of **D3 IT Solutions Inc** ([d3itsolutions.net](https://www.d3itsolutions.net)). © 2026 D3 IT Solutions Inc. All rights reserved.
