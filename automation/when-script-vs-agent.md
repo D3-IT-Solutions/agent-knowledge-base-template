@@ -16,7 +16,7 @@ Most real tasks mix all three. Split them: the agent does the thinking, calls a 
 |---|---|---|
 | Must it give the same result every time (a check, a format, a copy, a count)? | Script | Validate a config file; rename files to a pattern |
 | Has an assistant already done it by hand more than once? | Script (log an idea first, see [automation-ideas-log.md](automation-ideas-log.md)) | Re-running the same report steps each week |
-| Does it need reading, judgment, or writing in plain language? | Agent | Summarize a vendor's docs; draft a customer message for the owner to review |
+| Does it need reading, judgment, or writing in clear, everyday words? | Agent | Summarize a vendor's docs; draft a customer message for the owner to review |
 | Is the input messy or different each time? | Agent, with a script for any fixed sub-steps | Sort an inbox, then a script files the task |
 | Does it send, spend, publish, delete, create an account, or touch production or customer data? | A person approves first | Sending the drafted message; publishing a change; a payment |
 | Is it unclear which row applies? | Ask the owner; treat it as a decision | |

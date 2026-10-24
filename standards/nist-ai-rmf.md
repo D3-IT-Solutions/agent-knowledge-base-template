@@ -1,6 +1,6 @@
 # NIST AI RMF 1.0 and the Generative AI Profile (NIST AI 600-1)
 
-> This is a plain-language summary, not legal or compliance advice. Check the official text before relying on it.
+> This summary is written in clear, everyday words — it is not legal or compliance advice. Check the official text before relying on it.
 
 ## What it is
 

@@ -1,6 +1,6 @@
 # HIPAA basics for clinic clients
 
-> This is a plain-language summary, not legal advice. Check the official text and talk to a qualified professional before relying on it.
+> This summary is written in clear, everyday words — it is not legal advice. Check the official text and talk to a qualified professional before relying on it.
 
 ## What it is
 

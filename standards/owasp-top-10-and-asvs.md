@@ -1,6 +1,6 @@
 # OWASP Top 10 (web apps) and OWASP ASVS
 
-> This is a plain-language summary, not legal or compliance advice. Check the official text before relying on it.
+> This summary is written in clear, everyday words — it is not legal or compliance advice. Check the official text before relying on it.
 
 ## What it is
 
