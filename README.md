@@ -36,6 +36,7 @@ Each topic area is a folder. Each topic is one Markdown file inside that folder.
 ```
 .
 ├── index.md                Map of every note, standard, automation, and published article
+├── AGENTS.md               Auto-loaded instructions & memory hygiene rules for AI coding/chat agents
 ├── AGENT_GUIDE.md          How an assistant should interview you and write notes
 ├── CONTRIBUTING.md         Short rules for edits
 ├── SECURITY.md             What must never be committed
