@@ -6,7 +6,7 @@ This repository is the shared source of truth for AI assistants working with the
 1. [`index.md`](index.md) — Single-page map of every topic note, standard, automation rule, and published article. Read `index.md` first before scanning folders.
 2. [`AGENT_GUIDE.md`](AGENT_GUIDE.md) — How to interview the owner, write and cite topic notes, manage `draft` vs. `confirmed` statuses, and keep `index.md` in sync.
 3. [`SECURITY.md`](SECURITY.md) — Strict rules on secrets, credentials, and personal data that must never be committed.
-4. [`standards/core-principle.md`](standards/core-principle.md) & [`standards/memory-hygiene.md`](standards/memory-hygiene.md) — Core operating guardrails and memory hygiene rules.
+4. [`standards/core-principle.md`](standards/core-principle.md), [`standards/memory-hygiene.md`](standards/memory-hygiene.md), & [`standards/llm-temperature.md`](standards/llm-temperature.md) — Core operating guardrails, memory hygiene rules, and task-tiered LLM temperature settings (`0.0` deterministic ops/tax/JSON, `0.2` triage, `0.4` web chat, `0.6–0.7` human-reviewed creative drafts).
 
 ## 2. Memory Hygiene & Pruning Rule
 - **Keep durable assistant memory (`profile`) lean (≤ 25–30 concise facts).** Only save standing operating rules, identity/role boundaries, security rules, and explicit owner preferences in durable memory.

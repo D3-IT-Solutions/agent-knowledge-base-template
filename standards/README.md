@@ -10,6 +10,7 @@ Start with the core principle:
 |------|----------|----------------|
 | [core-principle.md](core-principle.md) | Human in the loop + deterministic automation | The rule the other pages build on: scripts for repeatable steps, agents for judgment, a human approver for anything consequential |
 | [memory-hygiene.md](memory-hygiene.md) | Memory hygiene & pruning (≤ 25–30 `profile` facts) | Keep assistant memory lean for standing rules only; put project specs in the KB/repo and prune obsolete task notes |
+| [llm-temperature.md](llm-temperature.md) | LLM temperature by task type (`0.0` / `0.2` / `0.4` / `0.6–0.7`) | Set `0.0` for deterministic ops/tax/JSON, `0.2` for triage, `0.4` for web chat, and `0.6–0.7` for human-reviewed creative drafts |
 | [nist-ai-rmf.md](nist-ai-rmf.md) | NIST AI RMF 1.0 + AI 600-1 (GenAI Profile) | Free US framework for managing AI risk |
 | [owasp-llm-top-10-2025.md](owasp-llm-top-10-2025.md) | OWASP Top 10 for LLM Applications 2025 | Top security risks for chat and phone agents (prompt injection, excessive agency) |
 | [owasp-top-10-and-asvs.md](owasp-top-10-and-asvs.md) | OWASP Top 10:2025 + ASVS 5.0.0 | Review checklist and acceptance criteria for websites and web apps |
