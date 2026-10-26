@@ -26,6 +26,7 @@ Industry standards and how they apply to your assistants and client work. Start 
 |---|---|---|
 | [standards/core-principle.md](standards/core-principle.md) | Core principle (human in the loop + deterministic automation) | The rule every other page builds on: scripts for repeatable steps, agents for judgment, a person approves anything consequential |
 | [standards/memory-hygiene.md](standards/memory-hygiene.md) | Memory hygiene & pruning (≤ 25–30 `profile` facts cap) | Keep assistant durable memory lean (standing rules & preferences only); store project specs and SOPs in the KB/repo and prune stale task notes |
+| [standards/llm-temperature.md](standards/llm-temperature.md) | LLM temperature & determinism by task type (`0.0` / `0.2` / `0.4` / `0.6–0.7`) | Use `0.0` for deterministic ops/tax/JSON, `0.2` for triage, `0.4` for web chat, and `0.6–0.7` only for human-reviewed creative drafts |
 | [standards/nist-ai-rmf.md](standards/nist-ai-rmf.md) | NIST AI RMF 1.0 + AI 600-1 (GenAI Profile) | Free US framework for managing AI risk in your assistants and client AI workflows |
 | [standards/owasp-llm-top-10-2025.md](standards/owasp-llm-top-10-2025.md) | OWASP Top 10 for LLM Applications 2025 | Top security risks for chat/phone agents and assistant teams (prompt injection, excessive agency) |
 | [standards/owasp-top-10-and-asvs.md](standards/owasp-top-10-and-asvs.md) | OWASP Top 10:2025 + ASVS 5.0.0 | Review checklist and acceptance criteria for websites and web apps |
